@@ -3,7 +3,7 @@
 --should only depend on part 2
 ----------------------------
 --needsPackage"Tensors"
-export{IndexedTensor,indexedTensor}
+export{"IndexedTensor","indexedTensor"}
 IndexedTensor = new Type of HashTable
 IndexedTensor.synonym="indexed tensor"
 subscriptNet :=method(Dispatch=>Thing)
