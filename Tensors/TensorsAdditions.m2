@@ -21,18 +21,18 @@ newPackage(
 )
 
 export {
-  symmetrize,
-  tensorEigenvectors,
-  tensorToPolynomial,
-  tensorToMultilinearForm,
-  multiplicationTensor,
-  eigenDiscriminant,
-  tensorEigenvectorsCoordinates,
-  isSymmetric,
-  polynomialToTensor,
-  tensorFromSlices,
-  flattenTensor,
-  factorMap
+  "symmetrize",
+  "tensorEigenvectors",
+  "tensorToPolynomial",
+  "tensorToMultilinearForm",
+  "multiplicationTensor",
+  "eigenDiscriminant",
+  "tensorEigenvectorsCoordinates",
+  "isSymmetric",
+  "polynomialToTensor",
+  "tensorFromSlices",
+  "flattenTensor",
+  "factorMap"
 }
 
 symmetrize = method()
